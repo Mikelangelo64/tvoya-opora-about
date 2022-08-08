@@ -81,7 +81,7 @@ $(document).ready(function () {
         }
     })
 
-    let reviewsAboutSwiper = new Swiper('.swiper.swiper-reviews__about', {
+    let reviewsAboutSwiper = new Swiper('.swiper.swiper-reviews__about.swiper-reviews__about__white', {
         slidesPerView: 'auto',
         spaceBetween: 24,
         grabCursor: true,
@@ -91,8 +91,8 @@ $(document).ready(function () {
             clickable: true
         },
         navigation: {
-            nextEl: '.reviews__about__container .reviews__btns__container .swiper-button-next',
-            prevEl: '.reviews__about__container .reviews__btns__container .swiper-button-prev',
+            nextEl: '.reviews__white .reviews__white__btns__container .swiper-button-next',
+            prevEl: '.reviews__white .reviews__white__btns__container .swiper-button-prev',
         },
         breakpoints: {
             768:{
@@ -115,8 +115,8 @@ $(document).ready(function () {
             clickable: true
         },
         navigation: {
-            nextEl: '.reviews__black .reviews__about__container .reviews__btns__container .swiper-button-next',
-            prevEl: 'reviews__black .reviews__about__container .reviews__btns__container .swiper-button-prev',
+            nextEl: '.reviews__black.reviews__about__container .reviews__black__btns__container .swiper-button-next',
+            prevEl: '.reviews__black.reviews__about__container .reviews__black__btns__container .swiper-button-prev',
         },
         breakpoints: {
             768:{
