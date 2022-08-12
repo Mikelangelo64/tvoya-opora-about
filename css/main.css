@@ -4820,7 +4820,7 @@ body textarea:focus-visible {
 }
 @media screen and (min-width: 450px) {
   .team-list .project-card-data:before {
-    padding-top: 100%;
+    padding-top: 123%;
   }
 }
 .team-list .project-card-data img {
